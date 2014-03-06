@@ -1,0 +1,23 @@
+TRAJ estimates a discrete mixture model for longitudinal data grouping. 
+Groupings may represent distinct subpopulations or alternatively, 
+components of a discrete approximation for a potentially complex data 
+distribution.
+ 
+Supported distributions are: censored (or regular) normal, zero inflated 
+(or regular) Poisson, and Bernoulli distributions (logistic model). The 
+censored normal model is useful for psychometric scale data, the zero 
+inflated Poisson model useful for count data with more zeros than would 
+be expected under the Poisson assumption, and the Bernoulli model useful 
+for 0/1 data. The model is appropriate for data with average values 
+changing smoothly as a function of the dependent variable (time, age, 
+...). Some sharp changes can be handled through the inclusion of time 
+dependent covariates.
+
+Details and software are here:
+
+http://www.andrew.cmu.edu/user/bjones/
+
+TRAJ was developed by Dan Nagin at CMU:
+
+http://www.heinz.cmu.edu/faculty-and-research/faculty-profiles/faculty-details/index.aspx?faculty_id=69
+
